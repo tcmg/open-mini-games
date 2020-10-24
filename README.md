@@ -38,7 +38,7 @@ The VideoGame Schema Markup (with web game property constraints) provides a surf
 
 In index.html within HEAD tag:
 
-~~~
+~~~html
 <head>
   <script type="application/ld+json">
     {
@@ -120,7 +120,7 @@ The Progressive Web App Manifest is already used by platforms such as Android to
 
 In index.html within HEAD tag:
 
-~~~
+~~~html
 <head>
   <link rel="manifest" href="/manifest.webmanifest">
   ...
@@ -128,7 +128,7 @@ In index.html within HEAD tag:
 
 Example manifest.webmanifest:
 
-~~~
+~~~json
 {
   "name": "Game title",
   "short_name": "Game title",
@@ -186,7 +186,7 @@ Enables surfacing platforms and clients to pre-cache resources of games discover
 
 In index.html within HEAD tag:
 
-~~~
+~~~html
 <head>
   <link rel="bundle-manifest" href="/files.txt" offline-capable=”true” hash=”(hash of the .wbn)”>
   ...
@@ -196,7 +196,7 @@ If this bundle of files enables a web game to be completely playable offline the
 
 Example files.txt:
 
-~~~
+~~~bash
 # A line starting with '#' is a comment.
 https://example.com/
 https://example.com/manifest.webmanifest
