@@ -58,7 +58,7 @@ In index.html within HEAD tag:
       "gameBanner": "https://example.com/landscape_banner.jpg",
       "about": "https://example.com/about.html",
       "privacyPolicyURL": "https://example.com/privacy.html",
-      “gameExecutionMode”: “clientside”,
+      "gameExecutionMode": "clientside",
       "image": [
         "https://example.com/screenshot/1.jpg",
         "https://example.com/screenshot/2.jpg",
